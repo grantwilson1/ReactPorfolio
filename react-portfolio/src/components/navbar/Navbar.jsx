@@ -5,6 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(fasle);
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
