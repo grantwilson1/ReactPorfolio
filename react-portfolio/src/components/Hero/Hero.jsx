@@ -9,7 +9,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, Im Grant</h1>
         <p className={styles.description}>
-          Im a college student at Virginia Tech, ...
+          Im a college student at Virginia Tech, aksjdhfkjashdfk
+          alkjsdflkasjlkdfj jlkas lkdfjlkasj ddflj jalakdsjf
         </p>
         <a href="mailto:grantvwilson@icloud.com" className={styles.contactBtn}>
           Contact Me
