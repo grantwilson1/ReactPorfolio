@@ -39,7 +39,7 @@
   margin-bottom: 52px;
 }
 
-.contactButton {
+.contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -51,8 +51,9 @@
 }
 
 .headShot {
-  width: 50%;
+  width: 35%;
   z-index: 1;
+  border-radius: 50%;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -79,7 +80,7 @@
   min-width: 350px;
   min-width: 350px;
   top: -128px;
-  left: 10vw;
+  left: -10vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
@@ -90,7 +91,7 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 250px;
+  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;

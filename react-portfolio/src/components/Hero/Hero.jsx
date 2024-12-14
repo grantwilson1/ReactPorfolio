@@ -1,6 +1,7 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
+
 import styles from "./Hero.module.css";
+import me from "../../../assets/contact/headshot.png";
 
 export const Hero = () => {
   return (
@@ -14,13 +15,9 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img
-        src={getImageUrl("skills/react.png")}
-        alt="Image of me"
-        className={styles.headShot}
-      />
-      <div className={StyleSheet.topBlur} />
-      <div className={StyleSheet.bottomBlur} />
+      <img src={me} alt="Image of me" className={styles.headShot} />
+      <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} />
     </section>
   );
 };

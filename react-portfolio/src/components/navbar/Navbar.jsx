@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import close from "../../../assets/navigation/closeIcon.png";
+import menu from "../../../assets/navigation/menuIcon.png";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,16 +10,13 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        Grant Wilson
       </a>
+
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("navigation/menuIcon.png")
-              : getImageUrl("navigation/closeIcon.png")
-          }
+          src={menuOpen ? close : menu}
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
