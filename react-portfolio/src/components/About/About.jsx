@@ -24,13 +24,13 @@ export const About = () => {
               <p>Im a frontend....</p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          {/* <li className={styles.aboutItem}>
             <img src={student} alt="cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend dev</h3>
               <p>Im a frontend....</p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
