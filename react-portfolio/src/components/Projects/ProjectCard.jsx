@@ -4,7 +4,7 @@ import styles from "./ProjectCard.module.css";
 import student from "../../../assets/about/graduated.png";
 
 const ProjectCard = ({
-  project: { title, imageSrc, description, demo, source },
+  project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
     <div className={styles.container}>
