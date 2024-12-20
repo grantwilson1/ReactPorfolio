@@ -1,16 +1,14 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
+import student from "../../../assets/about/graduated.png";
+
 const ProjectCard = ({
   project: { title, imageSrc, description, demo, source },
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`${title}`}
-        className={styles.image}
-      />
+      <img src={student} alt={`${title}`} className={styles.image} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
