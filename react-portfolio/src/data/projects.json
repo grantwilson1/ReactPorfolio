@@ -1,0 +1,10 @@
+[
+  {
+    "title": "React Portfolio",
+    "imageSrc": "a",
+    "description": "Created a personal portfolio using react",
+    "skills": ["React", "CSS", "JSON"],
+    "demo": "www.website.com",
+    "source": "https://github.com/grantwilson1/ReactPorfolio"
+  }
+]
