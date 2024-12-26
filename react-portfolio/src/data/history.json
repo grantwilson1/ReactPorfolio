@@ -4,7 +4,10 @@
     "org": "Datacor",
     "startDate": "June 2024",
     "endDdate": "August 2024",
-    "experiences": ["Worked on tests", "Wrote code"],
+    "experiences": [
+      "Created and executed automated regression tests for a cloud ERP application",
+      "Worked in a full stack environment, gaining experience in React.js, Node.js, and TypeScript"
+    ],
     "imageSrc": "experience/datacor.png"
   }
 ]
