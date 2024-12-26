@@ -1,14 +1,26 @@
 [
   {
     "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Java",
-    "imageSrc": "skills/react.png"
+    "title": "C",
+    "imageSrc": "skills/C.png"
   },
   {
-    "title": "Java",
-    "imageSrc": "skills/react.png"
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css-3.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/js.png"
   }
 ]
