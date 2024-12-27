@@ -4,7 +4,7 @@
     "imageSrc": "projects/portfolio.png",
     "description": "Created a personal portfolio using react",
     "skills": ["React", "CSS", "JSON"],
-    "demo": "www.website.com",
+    "demo": "www.grantwilson.space",
     "source": "https://github.com/grantwilson1/ReactPorfolio"
   }
 ]
